@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="97.377086">
+    <testcase classname="Add books to the cart" name="Adding book to the cart" time="22.782657">
+        <system-out><![CDATA[Given User click on the login link..........................................passed
+And User enter the username as "MohanLal"...................................passed
+And User enter the password as "Mohan@1234".................................passed
+And User click on the login button..........................................passed
+And User search a book "Birthday girl"......................................passed
+When User add books to the cart.............................................passed
+Then The cart badge should get updated......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="BookCart Application Tests" name="Login should be success" time="18.39734">
+        <system-out><![CDATA[Given User click on the login link..........................................passed
+And User enter the username as "MohanLal"...................................passed
+And User enter the password as "Mohan@1234".................................passed
+When User click on the login button.........................................passed
+Then Login should be success................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="BookCart Application Tests" name="Login should not be success" time="18.576989">
+        <system-out><![CDATA[Given User click on the login link..........................................passed
+And User enter the username as "John".......................................passed
+And User enter the password as "Johny@123"..................................passed
+When User click on the login button.........................................passed
+But Login should fail.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="BookCart Application Tests" name="Login should not be success 2" time="18.837932">
+        <system-out><![CDATA[Given User click on the login link..........................................passed
+And User enter the username as "koushik"....................................passed
+And User enter the password as "Passkoushik"................................passed
+When User click on the login button.........................................passed
+But Login should fail.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="BookCart Application Tests" name="Login should not be success 3" time="18.782168">
+        <system-out><![CDATA[Given User click on the login link..........................................passed
+And User enter the username as "Maria"......................................passed
+And User enter the password as "Maria@123"..................................passed
+When User click on the login button.........................................passed
+But Login should fail.......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
