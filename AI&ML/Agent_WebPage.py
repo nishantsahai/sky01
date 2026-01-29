@@ -858,7 +858,7 @@ if __name__ == "__main__":
     
     # Check if API key is set
     if not os.environ.get("OPENAI_API_KEY"):
-        print("⚠️  Please set your OPENAI_API_KEY environment variable")
+        print("Please set your OPENAI_API_KEY environment variable")
         sys.exit(1)
     
     # Check command line arguments
