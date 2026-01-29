@@ -228,7 +228,6 @@ if __name__ == "__main__":
     
     # Check if API key is set
     if not os.environ.get("OPENAI_API_KEY"):
-        print("⚠️  Please set your OPENAI_API_KEY environment variable")
-        print("   export OPENAI_API_KEY='your-key-here'")
+        print("Please set your OPENAI_API_KEY environment variable")
     else:
         asyncio.run(main())
