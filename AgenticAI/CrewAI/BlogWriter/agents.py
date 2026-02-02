@@ -2,7 +2,7 @@ import os
 from crewai import Agent
 from crewai_tools import SerperDevTool
 
-os.environ["SERPER_API_KEY"] = "bfd72e656249e0f0ccecb5b6ee41213c7957d23d"
+os.environ["SERPER_API_KEY"] = "masked"
 web_search_tool = SerperDevTool()
 
 # Research Agent
